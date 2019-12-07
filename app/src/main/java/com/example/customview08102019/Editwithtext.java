@@ -50,10 +50,19 @@ public class Editwithtext extends LinearLayout {
 
     private void mapview(View view) {
         mTvTitle = view.findViewById(R.id.textviewItemTitle);
+        mTvTitle.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setOnClickText();
+            }
+        });
     }
     private void setUpView() {
         mTvTitle.setText(mTextTitle);
         mTvTitle.setTextColor(mColorTitle);
+    }
+    private void setOnClickText(){
+
     }
 
 }
