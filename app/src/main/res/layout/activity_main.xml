@@ -9,7 +9,7 @@
 
     <com.example.customview08102019.Editwithtext
         app:title="Module Solar"
-        app:colorTitle="#030303"
+        app:colorTitle="#D51717"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

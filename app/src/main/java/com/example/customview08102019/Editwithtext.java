@@ -45,7 +45,7 @@ public class Editwithtext extends LinearLayout {
         if (attrs == null) return;
         TypedArray typedArray = getContext().obtainStyledAttributes(attrs,R.styleable.Editwithtext);
         mTextTitle = typedArray.getString(R.styleable.Editwithtext_title);
-        mColorTitle = typedArray.getInt(R.styleable.Editwithtext_colorTitle,0);
+        mColorTitle = typedArray.getColor(R.styleable.Editwithtext_colorTitle,0);
     }
 
     private void mapview(View view) {

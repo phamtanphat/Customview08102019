@@ -2,6 +2,6 @@
 <resources>
     <declare-styleable name="Editwithtext">
         <attr name="title" format="string"/>
-        <attr name="colorTitle" format="integer"/>
+        <attr name="colorTitle" format="color"/>
     </declare-styleable>
 </resources>
